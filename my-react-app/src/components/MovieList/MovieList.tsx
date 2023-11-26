@@ -11,7 +11,7 @@ type Props = {
 
 const MoviesList: React.FC<Props> = ({ movies }) => {
     const WatchLaterHandler = (item: Movie) => {
-        console.log(`Like movie with id ${item.id}`);
+        console.log(`Watch Later movie with id ${item.id}`);
     }
 
     return (<div className="movies-list-container">
